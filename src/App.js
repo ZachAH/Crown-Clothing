@@ -33,9 +33,11 @@ componentDidMount() {
             id: snapShot.id,
             ...snapShot.data()
           }
-        })
+        });
       });
-    }
+    } 
+    //wrap in else block so setState doesn't fire twice
+    this.setState({currentUser: userAuth});
   });
 }
 
