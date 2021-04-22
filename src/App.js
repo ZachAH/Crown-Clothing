@@ -36,7 +36,7 @@ componentDidMount() {
       } 
       //wrap in else block so setState doesn't fire twice
       setCurrentUser(userAuth);
-      addCollectionAndDocuments('collections', collectionsArray)
+      addCollectionAndDocuments('collections', collectionsArray.map(({title, items}) => ({title, items})));
     });
   }
           
