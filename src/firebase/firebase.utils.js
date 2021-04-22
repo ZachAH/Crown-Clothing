@@ -29,7 +29,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
         email,
         createdAt,
         ...additionalData
-      })
+      });
     } catch (error) {
       console.log('error creating user', error.message);
 
@@ -40,7 +40,10 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
 };
 
-
+export const addCollectionAndDocuments = (collectionKey, objectsToAdd) => {
+  const collectionRef = firestore.collection(collectionKey);
+  console.log(collectionRef);
+}
 
 
 firebase.initializeApp(config);
