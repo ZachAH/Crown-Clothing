@@ -3,6 +3,9 @@
 ## Description of the Website
 This website is a full-stack E-Commerce application. Users can shop and purchase clothing items.
 
+![Screenshot (180)](https://user-images.githubusercontent.com/68923037/116731065-dc475c80-a9ae-11eb-9243-b8e654dbb91a.png)
+
+
  
 <br/>
 
