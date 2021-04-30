@@ -12,7 +12,7 @@ This website is a full-stack E-Commerce application. Users can shop and purchase
 ## Table of Contents
 * [How it Works](#how-it-works)
 * [Website Features](#website-features)
-* [House It Website](#house-it-website)
+* [Crown Clothing Website](#crown-clothing-website)
 * [Credits](#credits)
 
 
