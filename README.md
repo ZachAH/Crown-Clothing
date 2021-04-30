@@ -43,7 +43,7 @@ This website is a full-stack E-Commerce application. Users can shop and purchase
 
 ## Crown Clothing Website
 
-www.crown-jewels-lives.herokuapp.com/
+https://crown-jewels-lives.herokuapp.com/
 
 <br/>
 
